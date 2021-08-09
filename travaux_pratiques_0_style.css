@@ -1,0 +1,34 @@
+.row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.card_alignement {
+	margin-top: 30px;
+}
+
+footer {
+	padding: 50px;
+	text-align: center;
+}
+
+a {
+	color: black;
+	transition: 1.5s;
+	text-decoration: none;
+	font-size: 1.00em;
+}
+
+a:hover {
+	color: #C75F49;
+}
+
+@media screen and (max-width: 1200px) {
+	.responsive {
+		width: 100%;
+	}
+
+	.col-md-4 {
+		width: 100%;
+	}
+}
